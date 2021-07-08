@@ -12,22 +12,7 @@ struct TaskList: View {
         List {
             ForEach(1..<21) { index in
                 TaskRow(title: "Item \(index)")
-                    .swipeActions(edge: .trailing) {
-                        // Delete
-                        Button {
-                            print("User deleted task")
-                        } label: {
-                            Label("Delete", systemImage: "trash")
-                        }
-                        .tint(.red)
-                        // Pin
-                        Button {
-                            print("User pinned task")
-                        } label: {
-                            Label("Pin", systemImage: "pin")
-                        }
-                        .tint(.yellow)
-                    }
+                // Swipe right
                     .swipeActions(edge: .leading) {
                         // Done
                         Button {
@@ -44,6 +29,24 @@ struct TaskList: View {
                         }
                         .tint(.blue)
                     }
+                // Swipe left
+                    .swipeActions(edge: .trailing) {
+                        // Delete
+                        Button {
+                            print("User deleted task")
+                        } label: {
+                            Label("Delete", systemImage: "trash")
+                        }
+                        .tint(.red)
+                        // Pin
+                        Button {
+                            print("User pinned task")
+                        } label: {
+                            Label("Pin", systemImage: "pin")
+                        }
+                        .tint(.yellow)
+                    }
+                
             }
         }
         .listStyle(.plain)

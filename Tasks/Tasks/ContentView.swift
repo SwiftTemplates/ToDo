@@ -13,7 +13,17 @@ struct ContentView: View {
             TaskList()
                 .navigationTitle("Today")
                 .toolbar {
+                    // Left Bar
+                    ToolbarItemGroup(placement: .navigationBarLeading) {
+                        // Date
+                        Text("July 30, 2021")
+                            .font(.subheadline)
+                            .fontWeight(.black)
+                            .foregroundColor(.secondary)
+                    }
+                    // Right Bar
                     ToolbarItemGroup(placement: .navigationBarTrailing) {
+                        // Add
                         Button(action: {
                             print("Add button was tapped")
                         }) {
@@ -22,10 +32,12 @@ struct ContentView: View {
                                     .onTapGesture {
                                         print("User added task")
                                     }
+                            
                             }
                         }
                     }
                 }
+            
         }
     }
 }

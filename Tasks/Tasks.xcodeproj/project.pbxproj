@@ -16,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C26CE76626979D8300505593 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		C2C5979A26977670000B9B0D /* Tasks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tasks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2C5979D26977670000B9B0D /* TasksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksApp.swift; sourceTree = "<group>"; };
 		C2C5979F26977670000B9B0D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +56,7 @@
 		C2C5979C26977670000B9B0D /* Tasks */ = {
 			isa = PBXGroup;
 			children = (
+				C26CE76626979D8300505593 /* Info.plist */,
 				C2C5979D26977670000B9B0D /* TasksApp.swift */,
 				C2C5979F26977670000B9B0D /* ContentView.swift */,
 				C2C597AB269776F4000B9B0D /* Views */,
@@ -288,6 +290,10 @@
 				DEVELOPMENT_TEAM = 85N3S3DG8M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Tasks/Info.plist;
+				INFOPLIST_KEY_CFBundleExecutable = Tasks;
+				INFOPLIST_KEY_CFBundleName = Tasks;
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -318,6 +324,10 @@
 				DEVELOPMENT_TEAM = 85N3S3DG8M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Tasks/Info.plist;
+				INFOPLIST_KEY_CFBundleExecutable = Tasks;
+				INFOPLIST_KEY_CFBundleName = Tasks;
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
