@@ -9,8 +9,24 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            TaskList()
+                .navigationTitle("Today")
+                .toolbar {
+                    ToolbarItemGroup(placement: .navigationBarTrailing) {
+                        Button(action: {
+                            print("Add button was tapped")
+                        }) {
+                            HStack {
+                                Image(systemName: "plus")
+                                    .onTapGesture {
+                                        print("User added task")
+                                    }
+                            }
+                        }
+                    }
+                }
+        }
     }
 }
 

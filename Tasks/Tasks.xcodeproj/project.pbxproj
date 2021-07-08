@@ -11,6 +11,8 @@
 		C2C597A026977670000B9B0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C5979F26977670000B9B0D /* ContentView.swift */; };
 		C2C597A226977671000B9B0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2C597A126977671000B9B0D /* Assets.xcassets */; };
 		C2C597A526977671000B9B0D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2C597A426977671000B9B0D /* Preview Assets.xcassets */; };
+		C2C597AD2697771B000B9B0D /* TaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C597AC2697771B000B9B0D /* TaskRow.swift */; };
+		C2C597AF269777D1000B9B0D /* TaskList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C597AE269777D1000B9B0D /* TaskList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		C2C5979F26977670000B9B0D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C2C597A126977671000B9B0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2C597A426977671000B9B0D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C2C597AC2697771B000B9B0D /* TaskRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRow.swift; sourceTree = "<group>"; };
+		C2C597AE269777D1000B9B0D /* TaskList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,7 @@
 			children = (
 				C2C5979D26977670000B9B0D /* TasksApp.swift */,
 				C2C5979F26977670000B9B0D /* ContentView.swift */,
+				C2C597AB269776F4000B9B0D /* Views */,
 				C2C597A126977671000B9B0D /* Assets.xcassets */,
 				C2C597A326977671000B9B0D /* Preview Content */,
 			);
@@ -65,6 +70,15 @@
 				C2C597A426977671000B9B0D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C2C597AB269776F4000B9B0D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C2C597AE269777D1000B9B0D /* TaskList.swift */,
+				C2C597AC2697771B000B9B0D /* TaskRow.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +151,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2C597AF269777D1000B9B0D /* TaskList.swift in Sources */,
+				C2C597AD2697771B000B9B0D /* TaskRow.swift in Sources */,
 				C2C597A026977670000B9B0D /* ContentView.swift in Sources */,
 				C2C5979E26977670000B9B0D /* TasksApp.swift in Sources */,
 			);
@@ -277,7 +293,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +323,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
