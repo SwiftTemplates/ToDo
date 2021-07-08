@@ -21,17 +21,15 @@ struct TaskItem: View {
             Image(systemName: isChecked ? doneBox : todoBox)
                 .foregroundColor(.blue)
                 .font(.system(size: 24))
-                //.font(.headline.weight(.medium))
-                //.font(.body.weight(.semibold))
             
             Text(title)
-                //.font(.subheadline)
                 .fontWeight(.medium)
             
             Spacer()
         }
-        .padding()
         .onTapGesture { toggle() }
+        .padding()
+        
     }
 }
 

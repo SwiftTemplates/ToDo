@@ -11,7 +11,6 @@
 		C23963DA2697577E00917396 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23963D92697577E00917396 /* ContentView.swift */; };
 		C23963DC2697577F00917396 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C23963DB2697577F00917396 /* Assets.xcassets */; };
 		C23963DF2697577F00917396 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C23963DE2697577F00917396 /* Preview Assets.xcassets */; };
-		C23963E8269759E800917396 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23963E7269759E800917396 /* HomeView.swift */; };
 		C23963F126975CD100917396 /* Symbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23963F026975CD100917396 /* Symbol.swift */; };
 		C23963F526975E9400917396 /* TaskItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23963F426975E9400917396 /* TaskItem.swift */; };
 		C23963F726975EBB00917396 /* TaskList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23963F626975EBB00917396 /* TaskList.swift */; };
@@ -24,7 +23,6 @@
 		C23963DB2697577F00917396 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C23963DE2697577F00917396 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C23963E02697577F00917396 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C23963E7269759E800917396 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		C23963F026975CD100917396 /* Symbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbol.swift; sourceTree = "<group>"; };
 		C23963F426975E9400917396 /* TaskItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskItem.swift; sourceTree = "<group>"; };
 		C23963F626975EBB00917396 /* TaskList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskList.swift; sourceTree = "<group>"; };
@@ -62,8 +60,8 @@
 			children = (
 				C23963D72697577E00917396 /* ToDoApp.swift */,
 				C23963D92697577E00917396 /* ContentView.swift */,
-				C23963EF26975CC500917396 /* Helpers */,
 				C23963E62697598100917396 /* Views */,
+				C23963EF26975CC500917396 /* Helpers */,
 				C23963DB2697577F00917396 /* Assets.xcassets */,
 				C23963E02697577F00917396 /* Info.plist */,
 				C23963DD2697577F00917396 /* Preview Content */,
@@ -82,7 +80,6 @@
 		C23963E62697598100917396 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				C23963E7269759E800917396 /* HomeView.swift */,
 				C23963F626975EBB00917396 /* TaskList.swift */,
 				C23963F426975E9400917396 /* TaskItem.swift */,
 			);
@@ -167,7 +164,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C23963F726975EBB00917396 /* TaskList.swift in Sources */,
-				C23963E8269759E800917396 /* HomeView.swift in Sources */,
 				C23963DA2697577E00917396 /* ContentView.swift in Sources */,
 				C23963D82697577E00917396 /* ToDoApp.swift in Sources */,
 				C23963F126975CD100917396 /* Symbol.swift in Sources */,

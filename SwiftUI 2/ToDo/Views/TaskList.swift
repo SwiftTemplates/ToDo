@@ -16,8 +16,6 @@ struct TaskList: View {
             ForEach(5..<11) { index in
                 TaskItem(isChecked: true, title: "Item \(index)")
             }
-            //TaskItem(isChecked: true, title: "Completed")
-            //TaskItem(isChecked: false, title: "To complete")
         }
     }
 }
