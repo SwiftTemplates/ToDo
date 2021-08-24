@@ -1,5 +1,3 @@
-// https://github.com/SwiftTemplates/ToDo © MIT
-
 import SwiftUI
 
 struct TaskRow: View {
